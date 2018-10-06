@@ -343,7 +343,7 @@ var CRUMINA = {};
 				$mouseScroll = ($t.data('mouse-scroll')) ? $t.data('mouse-scroll') : false,
 				$autoplay = ($t.data('autoplay')) ? parseInt($t.data('autoplay'), 10) : 0,
 				$autoheight = ($t.hasClass('auto-height')) ? true: false,
-				$slidesSpace = ($showItems > 1) ? 20 : 0;
+				$slidesSpace = ($showItems > 1) ? 0 : 0;
 
 			if ($showItems > 1) {
 				$breakPoints = {
